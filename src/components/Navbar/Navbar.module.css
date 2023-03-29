@@ -1,0 +1,25 @@
+.navbar {
+  background-color: #d9d9d9;
+}
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 auto;
+  width: 90%;
+  max-width: 1200px;
+  height: 50px;
+}
+.link {
+  color: #000;
+  font-weight: 600;
+}
+.loginLink {
+  composes: link;
+}
+.homeLink {
+  composes: link;
+}
+.logoutBtn {
+  cursor: pointer;
+}

@@ -1,0 +1,16 @@
+.container {
+  margin: 1rem auto 0 auto;
+  width: 65%;
+  max-width: 600px;
+}
+.containerBorder {
+  border: 2px solid #000;
+}
+
+.completed {
+  text-decoration: line-through;
+}
+.title {
+  font-weight: 600;
+  font-size: 1.25rem;
+}

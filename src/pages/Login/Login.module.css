@@ -1,0 +1,24 @@
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
+  height: calc(100vh - 50px);
+}
+
+.title {
+  font-size: 1.75rem;
+  font-weight: 700;
+}
+
+.redirect {
+  margin-top: 1.25rem;
+}
+.redirect a {
+  color: #000;
+  font-weight: 700;
+}
+.redirect a:hover {
+  opacity: 0.8;
+}
